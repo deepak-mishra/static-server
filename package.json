@@ -1,0 +1,25 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "Static server using Express.js , Node js ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "static",
+    "server"
+  ],
+  "author": "Deepak",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "compression": "^1.5.1",
+    "cookie-parser": "^1.3.5",
+    "errorhandler": "^1.4.1",
+    "express": "^4.13.1",
+    "method-override": "^2.3.3",
+    "morgan": "^1.6.1"
+  }
+}
