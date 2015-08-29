@@ -16,7 +16,7 @@ var env = process.env.NODE_ENV || 'development';
 
 // Setup server
 var app = express(),
-    port = process.env.PORT || 3000;
+    port = process.env.PORT || 8080;
 
 var staticOptions = {
     dotfiles: 'ignore',
