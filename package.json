@@ -1,7 +1,7 @@
 {
   "name": "static-server",
   "version": "1.0.0",
-  "description": "Static server using Express.js , Node js ",
+  "description": "Static server using Express.js , Node js test",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
