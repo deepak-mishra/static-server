@@ -16,7 +16,8 @@ var env = process.env.NODE_ENV || 'development';
 
 // Setup server
 var app = express(),
-    port = process.env.PORT || 8080;
+    port = process.env.OPENSHIFT_NODEJS_PORT ||process.env.PORT || 8080,
+    ip = process.env.OPENSHIFT_NODEJS_IP || process.env.IP
 
 var staticOptions = {
     dotfiles: 'ignore',
@@ -49,7 +50,7 @@ if ('development' == app.get('env')) {
 }
 
 // Start the server
-app.listen(port, function(){
+app.listen(port, ip, function(){
   console.log('server running on port ' + port);
 });  
 
